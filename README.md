@@ -1,15 +1,31 @@
 # cargo-chef-trunk docker image
 
-Adds the trunk wasm build tool on top of cargo-chef.
+Provides a debian-based docker image for rust wasm32 builds with trunk featuring
+- wasm32 target
+- [trunk](https://github.com/thedodd/trunk)
+- [cargo-chef](https://github.com/LukeMathWalker/cargo-chef)
+- [wasm-bindgen-cli](https://github.com/rustwasm/wasm-bindgen)
 
-
-## Requirements
+## Script requirements
 
 - `jq`
 - `cargo`
-- `docker` (obviously)
+- `docker`
 
+## Building the image
 
-## TODOS:
-- clear up cargo install cache post installation
-- how to set automate updating the rust toolchain
+To execute the build script locally, run
+
+```bash
+./_build_image.sh --sudo
+# alternatively, with rootless docker
+./_build_image.sh 
+```
+
+## Using the prebuilt image
+
+Prebuilt images are not yet available
+
+## Tagging scheme
+
+TBD
