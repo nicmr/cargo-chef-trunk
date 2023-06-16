@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecoystem: "cargo"
+    directory: "/"
+    schedule:
+      interval: "monthly"
