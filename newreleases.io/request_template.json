@@ -1,0 +1,8 @@
+{
+  "event_type": "newreleases.io/rust",
+  "client_payload": {
+    "provider": "{provider}",
+    "project": "{project}",
+    "version": "{version}"
+  }
+}
