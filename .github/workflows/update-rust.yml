@@ -16,7 +16,7 @@ jobs:
       - name: Create new branch
         run: git checkout -b "newreleases.io/rust-${{ github.event.client_payload.version }}"
       - name: Replace rust version string
-        run: sed -i 's/VERSION_RUST=[0-9]+\.[0-9]+\.[0-9]+/VERSION_RUST=${{ github.event.client_payload.version }}/' Dockerfile
+        run: sed -i -r 's/VERSION_RUST=[0-9]+\.[0-9]+\.[0-9]+/VERSION_RUST=${{ github.event.client_payload.version }}/' Dockerfile
       - name: Add, commit and push changes
         run: |
           git add Dockerfile 
