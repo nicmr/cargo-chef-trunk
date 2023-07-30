@@ -23,10 +23,10 @@ jobs:
       - name: Add, commit and push changes
         run: |
           git add Dockerfile 
-          git commit -m "Updated rust version to ${{ github.event.client_payload.version }}"
+          git commit -m "Update rust version to ${{ github.event.client_payload.version }}"
           git push -u origin newreleases.io/rust-${{ github.event.client_payload.version }}
       - name: create pull request
-        run: gh pr create --title "Update rust version to ${{ github.event.client_payload.version }}"
+        run: gh pr create --fill-first
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
