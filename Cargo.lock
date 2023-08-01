@@ -3184,9 +3184,9 @@ dependencies = [
 
 [[package]]
 name = "trunk"
-version = "0.17.2"
+version = "0.17.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6075542eab631778b316a825d6a552fac8f0e8b3cef67c0bcebf6ae1f2e6fa6f"
+checksum = "9c6b6dcb94a412ea90504a766f09f218d7a12a686ce7ca542fd2ef84565a9ff4"
 dependencies = [
  "ansi_term",
  "anyhow",
