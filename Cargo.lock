@@ -339,9 +339,9 @@ dependencies = [
 
 [[package]]
 name = "cargo-chef"
-version = "0.1.61"
+version = "0.1.62"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9e013fbdfa4f7d556dc5259d3cff96c018e61d13bc4b29c0fe5662f1280f4e94"
+checksum = "690d91f892fa01418b47dc2d0d00f6470aa0eadfe94b303938a9c27bf37bc4fb"
 dependencies = [
  "anyhow",
  "atty",
