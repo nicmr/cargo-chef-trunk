@@ -7,5 +7,5 @@ edition = "2021"
 
 [dependencies]
 cargo-chef = "0.1.62"
-trunk = "0.18.3"
+trunk = "0.18.8"
 wasm-bindgen-cli = "0.2.90"
