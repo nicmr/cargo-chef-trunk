@@ -6,6 +6,6 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-cargo-chef = "0.1.62"
+cargo-chef = "0.1.67"
 trunk = "0.18.3"
 wasm-bindgen-cli = "0.2.90"
